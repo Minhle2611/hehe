@@ -1,0 +1,93 @@
+/* Đặt font chữ mặc định */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*import font chữ tiêu đề*/
+@font-face {
+  font-family: 'DFVN';
+  src:url('DFVN\ West\ West\ Condensed.ttf')
+}
+
+body {
+  background: linear-gradient(135deg, #c1e9ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanhvien {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+  color: #004578;
+  font-family: 'DFVN';
+}
+
+.thethanhvien {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 15px;
+}
+
+.member {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+
+.member img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border-color: black;
+  border: 1px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+
+.member h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.member p {
+  margin-bottom: 10px;
+}
+
+
+.member .lop {
+  font-size: 0.96rem;
+  color: #777;
+}
+
+.nut {
+  color: #ffffff00;
+  border-radius: 20px;
+  border-color: #ffffff00;
+  background-color: #ffffff00;
+}
+
+a {
+  text-decoration: none;
+}

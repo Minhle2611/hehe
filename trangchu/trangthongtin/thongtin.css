@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #c1e9ff, #ffffff);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vh;
+    text-align: center;
+    color: #8d4ed6;
+    margin-top: 10px;
+
+}
+
+.than {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.khung {
+    display: flex;
+    width: 700px;
+    max-height: 70vh;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.trai {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, hsl(147, 100%, 81%), #ffffff);
+    color:black;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+
+.trai img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.404);
+    border: 0.2px solid;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.trai h2 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-bottom: 70px;
+}
+.trai h3 {
+    font-size: 1.2rem;
+    font-family:serif;
+    color: rgba(0, 0, 0, 0.397);
+}
+.trai a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.phai {
+    display: flex;
+    width: 700px;
+    max-height: 70vh;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.thongtin {
+    display: grid;
+    grid-auto-rows: max-content;
+    margin: 5%;
+}
+
+.thongtin h3 {
+    color: #8d4ed6;
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+}
